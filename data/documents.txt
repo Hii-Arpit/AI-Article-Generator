@@ -1,0 +1,58 @@
+What is CNCF?
+
+The Cloud Native Computing Foundation (CNCF) is an open-source software foundation dedicated to advancing cloud-native technologies. CNCF projects help developers and organizations build scalable, flexible, and modern applications.
+
+Core Principles of Cloud-Native Computing
+
+•	Containerization: Applications are packaged as containers for easy deployment and portability.
+•	Microservices: Applications are built as loosely coupled, independently deployable services.
+•	Dynamic Orchestration: Tools like Kubernetes automate deployment, scaling, and management of containers.
+•	Declarative APIs: Infrastructure and application behavior are described through declarative configurations.
+
+Popular CNCF Projects
+
+1.	Kubernetes
+•	Kubernetes is an open-source platform for automating deployment, scaling, and management of containerized applications.
+•	Use Case: Managing large-scale distributed systems.
+•	Key Features:
+•	Self-healing (reschedules failed containers).
+•	Auto-scaling (adjust resources based on demand).
+•	Service discovery and load balancing.
+2.	Prometheus
+•	Prometheus is a monitoring system and time-series database designed for cloud-native environments.
+•	Use Case: Collecting metrics and generating alerts for systems running in Kubernetes clusters.
+•	Key Features:
+•	Query language (PromQL).
+•	Visualization with Grafana.
+•	Alerts for system performance issues.
+3.	Envoy
+•	Envoy is a high-performance service proxy designed for cloud-native microservices architectures.
+•	Use Case: Load balancing, observability, and API gateway in microservice applications.
+•	Key Features:
+•	Traffic shaping.
+•	Advanced observability.
+•	Protocol support (HTTP/2, gRPC).
+4.	Helm
+•	Helm is a package manager for Kubernetes that simplifies application deployment.
+•	Use Case: Managing Kubernetes manifests using reusable Helm Charts.
+•	Key Features:
+•	Chart templates for faster deployment.
+•	Rollback functionality.
+5.	Linkerd
+•	Linkerd is a service mesh for Kubernetes that provides observability, reliability, and security.
+•	Use Case: Managing communication between microservices in a Kubernetes cluster.
+•	Key Features:
+•	Mutual TLS for service communication.
+•	Lightweight proxy.
+6.	Argo
+•	Argo is a suite of tools for Kubernetes, including Argo Workflows, Argo CD, and Argo Rollouts.
+•	Use Case: Managing CI/CD pipelines and workflows.
+•	Key Features:
+•	Declarative GitOps for deployment.
+•	Rollout strategies for updates.
+7.	OpenTelemetry
+•	OpenTelemetry provides observability through distributed tracing, metrics, and logs.
+•	Use Case: Monitoring applications across distributed systems.
+•	Key Features:
+•	Vendor-agnostic instrumentation.
+•	Support for multiple programming languages.
